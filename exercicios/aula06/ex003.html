@@ -20,9 +20,12 @@
     <h1>Olá, mundo!</h1>
     <p>Já me livrei da maldição</p>
     <script>
-        window.alert('Minha primeira mensagem!')
-        window.confirm('Está gostando de JS?') // Janela com botão OK e cancel
-        window.prompt('Qual é seu nome?') // Vai perguntar o nome...
+        var n1 = Number(window.prompt('Digite um número: ')) // String para Number real utilizando o Number
+        var n2 = Number(window.prompt('Digite outro número: ')) // String para Number real utilizando o parseFloat
+        var s = n1 + n2
+        window.alert(`A soma entre ${n1} e ${n2} é igual ${s}`) // Ligação
+        // (number + number) para adição
+        // (string + string) para ligação
     </script>
 </body>
 </html>
