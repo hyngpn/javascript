@@ -13,8 +13,8 @@
         var a = document.getElementById('btn')
 
         function clicar() {
-            a = window.prompt("Digite um número inteiro qualquer")
-            a = window.alert("antes de ")
+            a = Number(window.prompt("Digite um número inteiro qualquer"))
+            window.alert(`Antes de ${a}, temos o número ${a - 1}.\nDepois de ${a}, temos o número ${a + 1}.`)
         }
     </script>
 </body>
